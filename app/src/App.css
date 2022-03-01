@@ -1,10 +1,46 @@
 .App {
   text-align: center;
+  background-image: url(../static/mainBackground.gif);
+  width: 100vw;
+  position: fixed;
+  background-color: black;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+h1 {
+	margin-top: 0;
+    	margin-bottom: 0;
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@media(max-width:998px) {
+	html {
+		font-size: 55%;
+	}
+}
+
+@media(max-width:768px) {
+	html {
+		font-size: 45%;
+	}
+}
+
+@media(max-width:568px) {
+	html {
+		font-size: 35%;
+	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
